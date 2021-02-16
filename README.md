@@ -1,4 +1,7 @@
 ## Expected
 
-![expected](./expected.png)
+
+Debugging Menambahkan Node_module
+
+$yarn install
 
