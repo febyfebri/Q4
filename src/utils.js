@@ -14,7 +14,8 @@ export function toParams(query) {
     const keys = Object.keys(params);
   
     return keys.reduce((str, key, index) => {
-      let query = `${str}${key}==${params[key]}`;
+      //== Di ganti Dengan =
+      let query = `${str}${key}=${params[key]}`;
   
       if (index < (keys.length - 1)) {
         query += delimiter;
